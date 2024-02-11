@@ -8,23 +8,23 @@ These instructions are for the M3 version.
 
 ### Non-printed
 
-* 2 x M5x16 BSHCS
+* 2 x M5x16 BSHCS (can use extras in the kit)
 * 4 x M3x30 SHCS
 * 4 x M3 heatset insert
+* 4 x M3 washer
 
-There are enough spare M5x16 BSHCSs in the kit to not require extras for this
-mod: the BOM required 40, but the kit provides 43. For M3 heatset inserts, 
-there aren't enough in the kit if you want a Stealthburner (77 provided, all 
-required); if you want a Dragonburner, and are not using the TaiChi, V6 or 
-Bambu mount, then you have enough (this leaves 5 spare from the kit, and you 
-need 4), but with any of those mounts, you won't have enough. M3x30s are not
-included in the kit, but there aren't enough of them (only 1 spare), so you will
-need to source these yourself.
+You will also need the shims and bearings used to make the idler stacks: these
+come with the kit, and are exactly the same as stock. 
 
-This does not include the parts required to attach the idlers to the frame:
-these use the same parts that stock idlers would be attached with. It also
-doesn't include the shims and bearings used for the stacks, as these are the
-same as for the stock parts, and are also provided by the kit.
+To mount these to the frame, you will need:
+
+* 4 x M3 T-nut
+* 4 x M5 T-nut
+* 4 x M3x10 BSHCS
+* 4 x M5x10 BSHCS
+
+The M5 hardware listed above will come from the kit; only the M3 hardware is
+extra.
 
 ## Printed
 
