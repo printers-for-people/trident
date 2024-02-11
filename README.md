@@ -79,7 +79,8 @@ is to preload all the T-nuts prior to assembling the frame. There is a [video
 source on how to do this][preload-tnuts-video], but this is designed for the LDO
 kit, which uses nut bars. You can replace any use of nut bars with eight M3
 T-nuts, arranged in a four-and-four mirror setup. After this, you can assemble
-the frame as per the build manual.
+the frame as per the build manual. No additional parts are required, just a lot
+of your time and sanity.
 
 TODO: Image from manual page of how this should look.
 
@@ -88,24 +89,24 @@ TODO: We should just describe the preload in words.
 The second option is to buy better T-nuts. If the option is available to you,
 [Misumi ones][misumi-t-nut] are the best option, but they can be prohibitively
 expensive, especially if you live outside of the EU or North America. You can
-find cheaper ones, but your mileage may vary. We usually find
-[Liya][liya-t-nut] fasteners to be of good quality, but as we haven't tested
-these specific T-nuts, buy and use at your own risk. By the BOM (for a 250mm
+find cheaper ones, but your mileage may vary. You probably want something [like
+these][liya-sliding-nut]; the linked vendor is one we have good experiences
+with, but we haven't tested these specific nuts (yet). By the BOM (for a 250mm
 Trident), you want at least 70 M5 T-nuts, and 90 M3 T-nuts, but more would
-definitely be better.
+definitely be better. Ensure yours fit 2020 extrusions!
 
 A third option (technically outside of the spec) is to replace T-nuts with
-hammer nuts. While these have some downsides, both RatRig and VzBot consider
-hammer nuts sufficient for the same purposes that the Trident build uses 
-T-nuts. However, once again, we haven't tested this, so proceed with care if you
-choose to do this. As previously, you would want 70 M5 nuts and 90 M3 nuts, but
-as they're quite useful for attaching things to extrusions, it'd be better to
-get more.
+[hammer nuts][liya-hammer-nut]. While these have some downsides, both RatRig 
+and VzBot consider hammer nuts sufficient for the same purposes that the 
+Trident build uses T-nuts. However, once again, we haven't tested this, so 
+proceed with care if you choose to do this. As previously, you would want 
+70 M5 nuts and 90 M3 nuts, but as they're quite useful for attaching things 
+to extrusions, it'd be better to get more.
 
 [kit]: https://www.formbot3d.com/products/voron-trident-corexy-3d-printer-kit-with-premade-wiring-harness
 [preload-tnuts-video]: https://www.youtube.com/watch?app=desktop&v=hpkN9NHoKiY
 [misumi-t-nut]: https://fermio.xyz/misumi-europa-gmbh/misumi-t-slot-nut-hntaj5-3-6-mm-slot-m3-thread
-[liya-t-nut]: https://www.aliexpress.com/item/4000577562903.html
+[liya-sliding-nut]: https://www.aliexpress.com/item/32921956053.html
 [idler-break]: https://raw.githubusercontent.com/clee/VoronBFI/main/images/cracked_stock.jpg
 [bfi]: https://github.com/clee/VoronBFI
 [symmetric-bfi]: https://github.com/clee/VoronBFI/tree/main/usermods/Tetsu/Symetrical%20BFI
@@ -113,3 +114,4 @@ get more.
 [liya-hex-nut]: https://www.aliexpress.com/item/32868247852.html
 [liya-pin]: https://www.aliexpress.com/item/1005001502867783.html
 [bfi-assembly]: https://www.youtube.com/watch?v=XtfESO4ALw8&t=970s
+[liya-hammer-nut]: https://www.aliexpress.com/item/32922334719.html
