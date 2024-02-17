@@ -52,3 +52,5 @@ TODO: Mounting stiffness means it's easier to mount them before you close the
 extrusions.
 
 TODO: Note that screw wobble pre-belting is normal.
+
+TODO: Note and show images of proper alignment.
