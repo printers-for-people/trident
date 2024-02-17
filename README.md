@@ -15,6 +15,8 @@ especially if they are first-time builders.
   components related to the Stealthburner were evaluated.
 * We are writing this guide as we go, so there might be issues we haven't
   covered, or didn't ever hit. Let us know if we missed something!
+* Unless stated otherwise, any hardware we list for mods or issue fixes is _not_
+  included in the kit.
 
 ## Issues
 
@@ -58,6 +60,23 @@ These replace all parts in the `Front_Idlers` directory. Although there are no
 current assembly instructions, [this video (at the given
 timestamp)][bfi-assembly] shows the process.
 
+### Bottom-mounted electronics
+
+Again, due to suboptimal decision-making on the part of Voron Design, a
+Trident's electronics are only accessible if you flip the printer over. This is
+tedious, difficult to do, and probably not great for the printer. It's also
+quite difficult if you plan to add handles (which we did, and we [recommend you
+do as well](#unholey-sturdy-handles)).
+
+This can be fixed using the [Trident Inverted
+Electronics][trident-inverted-electronics] mod. This mod allows you to access
+the electronics by lifting the bottom panel, without having to re-orientt the
+printer at all. It  replaces the stock Z
+motor mounts and DIN rail mounts, but requires no additional hardware, or any
+changes to the build process, apart from mounting the DIN rails differently.
+
+TODO: Add a picture of the inverted electronics mod in-situ.
+
 ### Low-quality T-nuts
 
 The T-nuts provided by the kit (both M3 and M5) are of low quality. They are
@@ -98,8 +117,8 @@ definitely be better. Ensure yours fit 2020 extrusions!
 A third option (technically outside of the spec) is to replace T-nuts with
 [hammer nuts][liya-hammer-nut]. While these have some downsides, both RatRig 
 and VzBot consider hammer nuts sufficient for the same purposes that the 
-Trident build uses T-nuts. However, once again, we haven't tested this, so 
-proceed with care if you choose to do this. As previously, you would want 
+Trident build uses T-nuts. However, once again, we haven't tested these, so 
+proceed with care if you choose this option. As previously, you would want 
 70 M5 nuts and 90 M3 nuts, but as they're quite useful for attaching things 
 to extrusions, it'd be better to get more.
 
@@ -147,6 +166,18 @@ You will also need the following hardware:
 extrusion; the mount is made of red filament, except for the diffuser, which is
 clear.](./img/disco-on-a-stick.jpg)
 
+### Unholey Sturdy Handles
+
+Adding handles to your Trident is a good idea, as it makes moving it around much
+easier and less error-prone. The handles we recommend are
+[these][unholey-sturdy-handles], as they are fast-printing, easy to mount and
+_very_ strong.
+
+TODO: Add a picture of the unholey handles in-situ.
+
+TODO: Note what kind of hardware you need.
+
+[unholey-sturdy-handles]: https://www.printables.com/model/754663-unholey-sturdy-handle
 [disco-on-a-stick-mount]: https://www.printables.com/model/753475-daylightdiscorainbow-on-a-stick-matchstick-mounts-
 [siboor-disco-on-a-stick]: https://www.aliexpress.com/item/1005005538589525.html
 [mellow-disco-on-a-stick]: https://www.aliexpress.com/item/1005006177060472.html
@@ -163,3 +194,4 @@ clear.](./img/disco-on-a-stick.jpg)
 [liya-pin]: https://www.aliexpress.com/item/1005001502867783.html
 [bfi-assembly]: https://www.youtube.com/watch?v=XtfESO4ALw8&t=970s
 [liya-hammer-nut]: https://www.aliexpress.com/item/32922334719.html
+[trident-inverted-electronics]: https://mods.vorondesign.com/details/pXkXHVIUbqSWqQKJISczw
