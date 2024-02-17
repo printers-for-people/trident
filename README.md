@@ -103,6 +103,54 @@ proceed with care if you choose to do this. As previously, you would want
 70 M5 nuts and 90 M3 nuts, but as they're quite useful for attaching things 
 to extrusions, it'd be better to get more.
 
+## Improvements
+
+These are not problems in and of themselves, but instead good extras that you
+probably want to add to your build.
+
+### Disco on a Stick
+
+Aside from the Stealthburner nozzle LEDs, the kit comes with no lightning.
+[Disco on a Stick][disco-on-a-stick] is a convenient mod for a PCB-mounted set
+of 5V colour LEDs, which you can use to light up your build whichever way you
+want.
+
+You can either get the PCB made, or alternatively order it from any of these
+vendors:
+
+* [Mellow][mellow-disco-on-a-stick] (set 2, what we went with)
+* [Siboor][siboor-disco-on-a-stick] (270mm version)
+
+These are essentially identical products. Additionally, you want a mount; we
+recommend [this one][disco-on-a-stick-mount]. You want to print the
+following:
+
+* 2 x `Daylight Stick Diffuser V2.stl`
+* 2 x `Daylight Stick Carrier V2.stl`
+* 2 x `Mount A V2.stl`
+* 2 x `Mount B V2.stl`
+
+The diffusers should be printed out of something translucent. PETG would work OK
+here, as it's not bearing any load. We used PolyLite PC Clear, which is stiffer.
+For maximum clarity, we recommend printing at a high temperature (280C) and
+using the Aligned Rectilinear infill pattern.
+
+You will also need the following hardware:
+
+* 4 x M3x6 BSHCS (for attaching the PCBs to the carriers)
+* 4 x M3x6 SHCS (for attaching the mount A and B to the extrusions)
+* 4 x M3 heatset inserts (Voron standard, these go in the carrier holes)
+* 4 x M3 T-nut or hammer nut (for mounting to the extrusions, we used hammer
+  nuts)
+
+![An inside view from a Voron Trident frame. An LED mount is attached to the top
+extrusion; the mount is made of red filament, except for the diffuser, which is
+clear.](./img/disco-on-a-stick.jpg)
+
+[disco-on-a-stick-mount]: https://www.printables.com/model/753475-daylightdiscorainbow-on-a-stick-matchstick-mounts-
+[siboor-disco-on-a-stick]: https://www.aliexpress.com/item/1005005538589525.html
+[mellow-disco-on-a-stick]: https://www.aliexpress.com/item/1005006177060472.html
+[disco-on-a-stick]: https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight/Disco_on_a_stick
 [kit]: https://www.formbot3d.com/products/voron-trident-corexy-3d-printer-kit-with-premade-wiring-harness
 [preload-tnuts-video]: https://www.youtube.com/watch?app=desktop&v=hpkN9NHoKiY
 [misumi-t-nut]: https://fermio.xyz/misumi-europa-gmbh/misumi-t-slot-nut-hntaj5-3-6-mm-slot-m3-thread
