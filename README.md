@@ -122,6 +122,30 @@ proceed with care if you choose this option. As previously, you would want
 70 M5 nuts and 90 M3 nuts, but as they're quite useful for attaching things 
 to extrusions, it'd be better to get more.
 
+### Bed wiring is mirrored to the stock design
+
+The stock wiring arrangement for the thermal fuse and the protective earth wire
+at the bottom of the bed won't work well with the cable lengths for both the
+thermal fuse and the provided earth wire. This will work fine if you switch
+their positions relative stock: where the stock config would have you put the
+thermal fuse, put the protective earth wire and vice versa.
+
+TODO: Diagram
+
+### Bed wiring is not clearly labelled relative the thermal fuse
+
+Because of the integrated thermal fuse into the heating mat, it isn't easy to
+tell which of the bed cables goes through it or not.
+
+TODO: Image
+
+The wire labelled 'N' (for 'neutral') is _not_ connected to the thermal fuse
+(light blue on the corresponding diagram in the manual), while the wire labelled
+'L' (for 'live') _is_ connected to the thermal fuse (dark blue on the
+corresponding diagram in the manual.
+
+TODO: Diagram
+
 ## Improvements
 
 These are not problems in and of themselves, but instead good extras that you
