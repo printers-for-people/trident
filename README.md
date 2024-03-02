@@ -146,6 +146,47 @@ corresponding diagram in the manual.
 
 TODO: Diagram
 
+### No earth cable for the frame
+
+The Trident manual shows that an earth wire is required for the frame, but the
+kit does not provide one.  
+
+TODO: Image from manual
+
+To make such a wire, you need the following:
+
+* 18 AWG wire, ideally yellow-green and/or 16 AWG
+* Ferrule to crimp on one end
+* Ring or fork terminal to crimp on the other end
+* M3 or M5 washer
+* M3 or M5 hammer nut or T-nut (same as washer size)
+* M3 or M5 screw (same as washer size, 6-10mm)
+
+Insert the T-nut or hammer nut into any unused section of extrusion. Crimp a
+ferrule on one end of the wire, and the ring or screw terminal on the other.
+Insert the ferrule into the earth Wago, then screw the ring or fork terminal end
+of the same wire to the frame, using the washer and nut you just installed.
+
+### Incorrect cables given for earthing the SSR
+
+The Trident manual shows that the live end of the SSR must be wired to the earth
+terminal on the PSU. However, no suitable cable is provided to do this: instead,
+you are given a cable connecting the SSR to the earth Wago.
+
+There are two possible solutions to this, depending on whether you want to use
+the RS-25-5 provided to power the BTT Pi or not. If you want to have the RS-25-5
+powering the BTT Pi, you will need to make your own cable, which should have a
+ring or a fork terminal on both ends, be at least 18 AWG (16 AWG is better), and
+ideally be coloured the same as the other earth wires (yellow and green). 
+
+If you don't want the RS-25-5 (which is technically not necessary, as the BTT Pi can
+run from 24V power directly), you can use the provided earth cable and connect
+the SSR directly to the earth Wago. However, in that case, you will need to make
+power cables to connect the BTT Pi to the PSU. These should have fork or ring
+terminals on one end, ferrules on the other, and be at least 24 AWG. Ideally,
+you should match the colours of other power wires coming out of the PSU (black
+for negative, red for positive).
+
 ## Improvements
 
 These are not problems in and of themselves, but instead good extras that you
