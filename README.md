@@ -162,6 +162,9 @@ To make such a wire, you need the following:
 * M3 or M5 hammer nut or T-nut (same as washer size)
 * M3 or M5 screw (same as washer size, 6-10mm)
 
+The M3 (or M5) hardware can be found in the kit as extras, apart from the
+washers.
+
 Insert the T-nut or hammer nut into any unused section of extrusion. Crimp a
 ferrule on one end of the wire, and the ring or screw terminal on the other.
 Insert the ferrule into the earth Wago, then screw the ring or fork terminal end
@@ -242,6 +245,13 @@ TODO: Add a picture of the unholey handles in-situ.
 
 TODO: Note what kind of hardware you need.
 
+### BTT Pi DIN mount
+
+The RPi DIN mount won't fit the BTT Pi quite as well. [This modified
+mount][btt-pi-mount] can act as a drop-in replacement, uses the same hardware,
+and fits much better.
+
+[btt-pi-mount]: https://www.teamfdm.com/files/file/759-voron-btt-pi-v12-din-rail-mount/
 [unholey-sturdy-handles]: https://www.printables.com/model/754663-unholey-sturdy-handle
 [disco-on-a-stick-mount]: https://www.printables.com/model/753475-daylightdiscorainbow-on-a-stick-matchstick-mounts-
 [siboor-disco-on-a-stick]: https://www.aliexpress.com/item/1005005538589525.html
